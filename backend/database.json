@@ -1,0 +1,129 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "adm_users": [
+        {
+            "id": 1,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123",
+            "profile": "ADMIN"
+        },
+        {
+            "id": 2,
+            "name": "Guilherme",
+            "email": "Guilherme@gmail.com",
+            "password": "1234",
+            "profile": "SUPORTE"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Academia do flutter"
+        },
+        {
+            "id": 1,
+            "title": "Jornada Dart"
+        },
+        {
+            "id": 2,
+            "title": "Jornada GetX"
+        }
+    ],
+    "students": [
+        {
+            "id": 0,
+            "name" : "Anderson Vinicius",
+            "age": 34,
+            "nameCourses": [
+                "Flutter Academy",
+                "Dart",
+                "GetX"
+            ],
+            "courses": [
+                {
+                    "id": 1,
+                    "name": "Flutter Academy",
+                    "isStudent": true
+                },
+                {
+                    "id": 2,
+                    "name": "Dart",
+                    "isStudent": true
+                },
+                {
+                    "id": 3,
+                    "name": "GetX",
+                    "isStudent": false
+                }
+            ],
+            "address": {
+                "street": "Rua X",
+                "number": 344,
+                "zipcode": "97788443",
+                "city": {
+                    "id": 1,
+                    "name": "New York"
+                },
+                "phone": {
+                    "ddd": 567,
+                    "phone": "35564998783674"
+                }
+            }
+
+        },
+        {
+            "id": 1,
+            "name" : "Barbara Regina",
+            "nameCourses": [
+                "Flutter Academy",
+                "Dart",
+                "GetX"
+            ],
+            "courses": [
+                {
+                    "id": 1,
+                    "name": "Flutter Academy",
+                    "isStudent": true
+                },
+                {
+                    "id": 2,
+                    "name": "Dart",
+                    "isStudent": false
+                },
+                {
+                    "id": 3,
+                    "name": "GetX",
+                    "isStudent": false
+                }
+            ],
+            "address": {
+                "street": "Rua X",
+                "number": 344,
+                "zipcode": "97788443",
+                "city": {
+                    "id": 1,
+                    "name": "New York"
+                },
+                "phone": {
+                    "ddd": 567,
+                    "phone": "35564998783674"
+                }
+            }
+
+        }
+    ]
+}
